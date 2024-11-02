@@ -1,0 +1,7 @@
+.place__text-block {
+    background-color: coral;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }

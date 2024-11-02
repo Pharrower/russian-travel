@@ -1,0 +1,14 @@
+.page {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 28px 0 24px 0;
+  }
+  
+  @media (max-width: 767px) {
+    .page {
+      padding: 16px 0 24px 0;
+    }
+  }

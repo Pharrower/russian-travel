@@ -1,0 +1,14 @@
+.place__website {
+    background-color: cadetblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 12px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .place__website {
+      padding: 0 16px;
+    }
+  }

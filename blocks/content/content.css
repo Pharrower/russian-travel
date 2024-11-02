@@ -1,0 +1,28 @@
+.content {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 56px 0 92px 0;
+    gap: 92px;
+  }
+  
+  @media screen and (max-width: 1279px) {
+    .content {
+      padding: 48px 0 92px 0;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .content {
+      padding: 48px 0 88px 0;
+      gap: 88px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .content {
+      padding: 48px 0 64px 0;
+      gap: 64px;
+    }
+  }

@@ -1,0 +1,25 @@
+.intro {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    width: 984px;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 1279px) {
+    .intro {
+      width: 928px;
+    }
+  }
+  
+  @media screen and (max-width: 979px) {
+    .intro {
+      width: calc(100% - 24px * 2);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .intro {
+      width: calc(100% - 16px * 2);
+    }
+  }
