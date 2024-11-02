@@ -1,5 +1,4 @@
 .cover__subtitle {
-    background-color: cadetblue;
     max-width: 360px;
     margin: 0 auto 0;
     font-family: 'Inter';
@@ -9,12 +8,12 @@
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
-  }
+}
   
-  @media screen and (max-width: 767px) {
-    .cover__subtitle {
-      max-width: 288px;
-      font-size: 14px;
-      line-height: 16px;
-    }
+ @media screen and (max-width: 767px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
   }
+}

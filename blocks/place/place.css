@@ -1,5 +1,4 @@
 .place {
-    background-color: burlywood;
     display: grid;
     grid-template-columns: minmax(460px, 480px) 1fr;
     grid-template-rows: repeat(2, min-content);
